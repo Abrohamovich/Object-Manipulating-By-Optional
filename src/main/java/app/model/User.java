@@ -22,4 +22,13 @@ public class User {
     public String getEmail() {
         return email;
     }
+
+    @Override
+    public String toString() {
+        return "User{\n" +
+                "\nid: " + id +
+                ",\n name: " + name +
+                ",\n email: " + email +
+                "\n}";
+    }
 }
